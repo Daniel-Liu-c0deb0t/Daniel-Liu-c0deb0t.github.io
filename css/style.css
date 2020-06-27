@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+*{
+	margin: 0;
+	padding: 0;
+}
+
 body{
 	background-color: #4c566a;
 	padding: 10px 10px 20px 10px;
@@ -12,7 +17,6 @@ body{
 	margin: auto;
 	font-size: 1em;
 	font-family: "Lato", serif;
-	text-align: justify;
 	background-color: white;
 	padding: 20px 50px 30px 50px;
 	border-radius: 10px;
@@ -53,9 +57,9 @@ h1{
 h2{
 	font-size: 2em;
 	margin-top: 1em;
+	margin-bottom: 0.5em;
 	position: relative;
 	font-family: "Lato", serif;
-	width: 100%;
 	background-color: #4c566a;
 	color: white;
 	padding: 5px 10px 10px 10px;
@@ -118,7 +122,7 @@ nav{
 }
 
 nav > a{
-	font-size: 1em;
+	font-size: 0.9em;
 	color: black;
 	text-decoration: none;
 	transition: color 0.3s;
@@ -189,18 +193,21 @@ b{
 
 p{
 	line-height: 1.5em;
+	margin: 0.7em 10px 0.7em 10px;
 }
 
 ul{
 	list-style: none;
 	padding-left: 0;
 	line-height: 1.25em;
+	margin: 0 10px 0 10px;
 }
 
 ul > ul{
 	list-style: initial;
 	padding-left: 50px;
 	font-size: 0.8em;
+	margin: 0;
 }
 
 ul > li{
@@ -212,8 +219,7 @@ ul > ul > li{
 }
 
 .links{
-	margin-top: 0.25em;
-	margin-left: 50px;
+	margin: 0.25em 10px 0 50px;
 	font-size: 0.8em;
 }
 
@@ -222,8 +228,7 @@ ul > ul > li{
 }
 
 .authors{
-	margin-left: 50px;
-	margin-top: 0.5em;
+	margin: 0.5em 10px 0 50px;
 	font-size: 0.8em;
 }
 
