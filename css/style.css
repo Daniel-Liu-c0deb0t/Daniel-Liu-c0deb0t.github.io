@@ -52,7 +52,7 @@ a{
 	-moz-text-fill-color: transparent;
 	background-size: 5%;
 	background-repeat: repeat;
-    transition: background-size 0.5s ease-in-out, border-color 0.5s;
+    transition: background-size 0.5s ease-in-out, border-color 0.5s ease-in-out;
 }
 
 a:link, a:visited{
@@ -61,7 +61,7 @@ a:link, a:visited{
 }
 
 a:hover, a:active{
-	background-size: 3000%;
+	background-size: 4000%;
     border-color: var(--color-light);
 }
 
