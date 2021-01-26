@@ -3,69 +3,71 @@
 
 :root{
     --color-dark: black;
-    --color-light: #ff8989;
+    --color-light: #ff5782;
 }
 
 *{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body{
-	background-color: white;
-	padding: 10px 10px 10px 10px;
-	margin: 0;
+    background-color: #ffebf0;
+    padding: 0px 10px 0px 10px;
+    margin: 0;
 }
 
 #content{
-	max-width: 650px;
-	width: 80%;
-	margin: auto;
-	font-size: 1.2em;
+    max-width: 500px;
+    width: 80%;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.1em;
     font-family: 'Lato', sans-serif;
-	background-color: white;
-	padding: 30px 30px 30px 30px;
+    background-color: white;
+    padding: 20px 30px 20px 30px;
 }
 
 h1{
-	font-size: 2.5em;
-	text-align: left;
-	margin-bottom: 0;
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 0;
     font-family: 'Lato', sans-serif;
-	margin-top: 0;
+    margin-top: 0;
     margin-left: 10px;
-	color: var(--color-dark);
+    color: var(--color-dark);
 }
 
 a{
-	font-size: 1em;
+    font-size: 1em;
     border-style: solid;
     border-color: var(--color-dark);
     border-width: 0 0 2px 0;
 
     background-image: linear-gradient(45deg, var(--color-light) 4.99%, var(--color-dark) 5%);
     background-clip: text;
-	text-fill-color: transparent;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	-moz-background-clip: text;
-	-moz-text-fill-color: transparent;
-	background-size: 5%;
-	background-repeat: repeat;
-    transition: background-size 0.5s ease-in-out, border-color 0.5s ease-in-out;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    background-size: 5%;
+    background-repeat: repeat;
+    transition: background-size 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
 a:link, a:visited{
-	background-size: 5%;
+    background-size: 5%;
     border-color: var(--color-dark);
 }
 
 a:hover, a:active{
-	background-size: 4000%;
+    background-size: 4000%;
     border-color: var(--color-light);
 }
 
 p{
-	line-height: 1.5em;
-	margin: 0.7em 10px 0.7em 10px;
+    line-height: 1.5em;
+    margin: 0.7em 10px 0.7em 10px;
 }
