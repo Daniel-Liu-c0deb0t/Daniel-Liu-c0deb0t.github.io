@@ -67,7 +67,11 @@ a:hover, a:active{
     border-color: var(--color-light);
 }
 
-p{
+p, ul{
     line-height: 1.5em;
     margin: 0.7em 10px 0.7em 10px;
+}
+
+ul{
+    margin-left: 2em;
 }
